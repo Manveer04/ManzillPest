@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+.custom-margin {
+  margin-top: 0;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -79,36 +83,28 @@ header nav a {
 }
 
 /* Pictures Section */
-
 .pictures {
+  margin-top: 10px;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  gap: 20px; /* Add some space between the images */
+  margin-bottom: 20px; /* Add some margin for spacing */
 }
 
-.pictures img{
-  float: left;
-  max-width: 50%;
-  height: 428px;
-  width: auto-size;
-  display: flex; 
+.pictures img {
+  max-width: 45%;
+  height: auto;
+  display: block;
 }
 
-
-/*About Section*/
-
-.about, .service {
+/* About Section */
+.about {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
   margin: 1rem;
   padding: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  justify-content: center;
   text-align: center;
-  align-items: center;
 }
 
 /* Services Section */
